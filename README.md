@@ -1,1 +1,1 @@
-# Lab 2 - Starter
+# [Github Pages Link for lab 2](https://coderfreeze.github.io/Lab2_Starter/)
