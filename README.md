@@ -1,1 +1,1 @@
-# [Github Pages Link for lab 2](https://coderfreeze.github.io/Lab2_Starter/)
+# [Github Pages Link for lab 3](https://coderfreeze.github.io/sp25-cse110-lab3/)
