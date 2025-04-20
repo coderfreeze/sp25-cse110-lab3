@@ -33,12 +33,8 @@ nav a {
 
 /* wide‑gamut & mixing */
 body { 
-    background-color: 
-    color(display-p3 1 1 1 / 1); 
+    background-color:white;
 }
-main { 
-    background-color: color-mix(in srgb, var(--color-primary) 60%, white 40%);
- }
 
 header {
   background-color: var(--color-primary);
@@ -288,15 +284,8 @@ form:has(input[type="radio"]:checked) {
   padding: 1rem;
 }
 
-/* Nested Selectors */
-nav {
-  ul {
-    li {
-      a {
-        font-weight: bold;
-        letter-spacing: 0.05rem;
-      }
-    }
+nav ul li a {
+    font-weight: bold;
+    letter-spacing: 0.05rem;
   }
-}
 
