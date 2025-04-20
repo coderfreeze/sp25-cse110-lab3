@@ -10,7 +10,6 @@
   <body>
 
     <header>
-        <h1>Meeting Minutes 1</h1>
         <nav>
             <ul>
                 <li><a href="#attendence">Attendance</a></li>
@@ -21,13 +20,14 @@
                 <li><a href="#media">Media</a></li>
             </ul>
         </nav>
-        <hr>
+        <h1 id="main_title">Meeting Minutes 2</h1>
+
     </header>
 
     <main>
         <section id="topic">
             <h2>Topic: Brainstorming</h2>
-            <h3>April 12, 2025</h3>
+            <h3>April 20, 2025</h3>
             <p>Meeting to brainstorm ideas for the project</p>
         </section>
 
@@ -52,15 +52,18 @@
             <h2>Agenda</h2>
             <ol>
                 <li>Brainstorm project ideas</li>
+                <li>Discuss Implementation Details</li>
+                <li>Assign Roles</li>
+                <li>Improve through Customer Feedback</li>
             </ol>
         </section>
 
-        <section id="old-business">
+        <section id="old-business" class="business">
             <h2>Unfinished Business</h2>
             <p>Nothing from last meeting</p>
         </section>
 
-        <section id="new-business">
+        <section id="new-business" class="business">
             <h2>New Business</h2>
             <p>Discuss core features</p>
 
@@ -83,38 +86,37 @@
             <h3>Various meeting recordings and diagrams: </h3>
 
             <p>Diagram of Project Flow:</p>
-            <img src="/Lab2_Starter//media/Untitled.png" alt="Diagram">
+            <img src="/sp25-cse110-lab3/media/Untitled.png" alt="Diagram">
 
             <form>
-                <input type="radio" id="idea1" name="idea" value="1">
-                <label for="idea1">Idea 1</label>
+                <label for="idea1">
+                    <input type="radio" id="idea1" name="idea" value="1">
+                    Idea 1
+                </label>
 
-                <input type="radio" id="idea2" name="idea" value="2">
-                <label for="idea2">Idea 2</label><br>
+                <label for="idea2">
+                    <input type="radio" id="idea2" name="idea" value="2">
+                    Idea 2
+                </label>
 
                 <button type="submit">Submit</button>
             </form>
 
-            <br>
-
             <p>Stock Audio: </p>
             <audio controls>
-                <source src="/Lab2_Starter/media/videoplayback.mp4">
+                <source src="/sp25-cse110-lab3/media/videoplayback.mp4">
                 Audio not supported
             </audio>
 
-            <br>
-
             <p>Stock Video Footage: </p>
             <video controls>
-                <source src="/Lab2_Starter/media/videoplayback.mp4">
+                <source src="/sp25-cse110-lab3/media/videoplayback.mp4">
                 Video not supported
             </video>
         </section>
     </main>
 
     <footer>
-        <hr>
         <p>Contact: <a href="mailto:team@example.com">team@example.com</a></p>
         <p><span>2025; Team 21</span></p>
     </footer>
